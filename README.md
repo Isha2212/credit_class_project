@@ -1,4 +1,4 @@
-💳 Credit Class Prediction using Machine Learning
+# 💳 Credit Class Prediction using Machine Learning
 
 📌 Project Overview
 This project focuses on predicting credit class eligibility using Machine Learning techniques.
@@ -6,7 +6,7 @@ The objective is to analyze customer credit-related data, perform preprocessing 
 
 The project follows a modular pipeline-based approach, making it scalable, reusable, and suitable for real-world ML applications.
 
-🧠 Prerequisites
+# 🧠 Prerequisites
 
 Before working on this project, you should have a basic understanding of:
 
@@ -15,7 +15,7 @@ Before working on this project, you should have a basic understanding of:
 - Supervised learning algorithms
 - Data preprocessing and feature engineering concepts
 
-🛠️ Technologies & Libraries Used
+# 🛠️ Technologies & Libraries Used
 
 This project is implemented entirely in Python using the following libraries:
 
@@ -33,12 +33,13 @@ Flask – Model deployment (API)
 
 Logging – Tracking pipeline execution and errors
 
-⚙️ Installation Guide
-Step 1: Create and activate a virtual environment (recommended)
+# ⚙️ Installation Guide
+
+## Step 1: Create and activate a virtual environment (recommended)
 python -m venv .venv
 source .venv/bin/activate     # macOS
 
-Step 2: Install required dependencies
+## Step 2: Install required dependencies
 pip install numpy
 pip install pandas
 pip install matplotlib
@@ -47,10 +48,10 @@ pip install scikit-learn
 pip install imbalanced-learn
 pip install flask
 
-Step 3: Save dependencies
+## Step 3: Save dependencies
 pip freeze > requirements.txt
 
-✅ Verifying Installation
+# ✅ Verifying Installation
 
 You can verify successful installation by importing the required modules:
 
@@ -95,7 +96,7 @@ creditcard/
 ├── requirements.txt
 └── README.md
 
-🔍 Dataset Information
+# 🔍 Dataset Information
 
 Title: Credit Card Prediction Dataset
 
@@ -103,7 +104,7 @@ Source: Kaggle
 Description:
 The dataset contains customer financial and demographic attributes used to predict credit class eligibility.
 
-📊 Methodology & Approach
+# 📊 Methodology & Approach
 1. Data Loading & Validation
 Data is loaded using Pandas
 Logging is implemented to track pipeline execution
@@ -125,7 +126,7 @@ Class imbalance is addressed using resampling techniques from imbalanced-learn
 Linear Regression was selected based on ROC Curve analysis
 The model was evaluated against other algorithms and chosen for optimal performance
 
-🚀 Model Deployment
+# 🚀 Model Deployment
 The trained model is deployed using Flask, providing a REST API for predictions.
 
 🔗 Local API Endpoint
@@ -137,14 +138,14 @@ http://127.0.0.1:5000/predict
 - Precision
 - Recall
 
-🎯 Key Highlights
+# 🎯 Key Highlights
 
 - Modular and reusable ML pipeline
 - Robust logging mechanism
 - Handles missing values, outliers, and imbalanced data
 - End-to-end ML lifecycle: data → model → deployment
 
-📌 Future Enhancements
+# 📌 Future Enhancements
 
 - Try advanced models (Random Forest, XGBoost)
 - Hyperparameter tuning
