@@ -76,7 +76,8 @@ from var_out import variable_trainsormation_outliers
 from feature_selection import complete_feature_selection
 from imbalance_data import balance_data
 
-🧩 Project Structure
+# 🧩 Project Structure
+
 creditcard/
 │
 ├── data/
@@ -150,7 +151,8 @@ http://127.0.0.1:5000/predict
 - Model monitoring and retraining
 - Front-end integration for user interaction
 
-Author
+# Author: 
+
 Isha
 MBA (Business Analytics)
 Machine Learning | Data Analytics
