@@ -152,8 +152,8 @@ http://127.0.0.1:5000/predict
 - Model monitoring and retraining
 - Front-end integration for user interaction
 
-# Author: 
+# Author
 
-Isha
-MBA (Business Analytics)
+Isha, 
+MBA (Business Analytics),
 Machine Learning | Data Analytics
