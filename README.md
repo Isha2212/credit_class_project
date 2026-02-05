@@ -130,7 +130,7 @@ The model was evaluated against other algorithms and chosen for optimal performa
 The trained model is deployed using Flask, providing a REST API for predictions.
 
 🔗 Link:
-(https://isha22.pythonanywhere.com/predict)
+[(https://isha22.pythonanywhere.com)]
 
 📈 Evaluation Metrics
 - ROC Curve
