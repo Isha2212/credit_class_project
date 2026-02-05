@@ -129,8 +129,8 @@ The model was evaluated against other algorithms and chosen for optimal performa
 # 🚀 Model Deployment
 The trained model is deployed using Flask, providing a REST API for predictions.
 
-🔗 Local API Endpoint
-http://127.0.0.1:5000/predict
+🔗 Link:
+(https://isha22.pythonanywhere.com/predict)
 
 📈 Evaluation Metrics
 - ROC Curve
